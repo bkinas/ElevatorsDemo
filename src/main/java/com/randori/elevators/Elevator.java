@@ -4,7 +4,11 @@ package com.randori.elevators;
  * Created by kinas on 21.03.16.
  */
 public interface Elevator {
-    void sendTo(Integer requestedFloor);
+    void add(Signal signal);
 
-    Integer getFloor();
+    int countRequests();
+
+    int getRequestPosition(Signal signal);
+
+    void run();
 }

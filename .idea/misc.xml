@@ -38,6 +38,18 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="enableJSFormatting" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1430125615700" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJS" value="D:/Downloads/autotest1.1.xml" />
+    <option name="pathToConfigFileJava" value="D:/Downloads/autotest1.1.xml" />
+    <option name="selectedJavaProfile" value="Autotest 1.1 Java" />
+    <option name="selectedJavaScriptProfile" value="Autotest 1.1 Javascript" />
+    <option name="useOldEclipseJavaFormatter" value="true" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
