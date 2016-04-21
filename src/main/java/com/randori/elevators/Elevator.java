@@ -6,9 +6,9 @@ package com.randori.elevators;
 public interface Elevator {
     void add(Signal signal);
 
-    int countRequests();
+    int countUnprocessSignals();
 
-    int getRequestPosition(Signal signal);
+    int checkNewSignalProcessingOrder(Signal signal);
 
     void run();
 }

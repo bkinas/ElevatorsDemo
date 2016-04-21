@@ -5,6 +5,5 @@ package com.randori.elevators;
  */
 public interface Signal extends Comparable<Signal> {
     Integer getFloor();
-
     Direction getDirection();
 }
