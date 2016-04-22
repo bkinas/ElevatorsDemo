@@ -8,7 +8,6 @@ public interface Elevator {
 
     int countUnprocessSignals();
 
-    int checkNewSignalProcessingOrder(Signal signal);
 
-    void run();
+    ElevatorState getState();
 }
